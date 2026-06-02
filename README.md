@@ -15,7 +15,7 @@ xcx-docs/
 ├── de/        # German           (planned)
 ├── uk/        # Ukrainian        (planned)
 ├── ko/        # Korean           (planned)
-├── es/        # Spanish          (planned)
+├── es/        # Spanish          (complete)
 ├── nl/        # Dutch            (planned)
 ├── he/        # Hebrew           (planned)
 └── ar/        # Arabic           (planned)
@@ -78,7 +78,7 @@ Covers XCX 3.1 (current stable).
 | German | `de` | 🚧 planned |
 | Ukrainian | `uk` | 🚧 planned |
 | Korean | `ko` | 🚧 planned |
-| Spanish | `es` | 🚧 planned |
+| Spanish | `es` | ✅ complete |
 | Dutch | `nl` | 🚧 planned |
 | Hebrew | `he` | 🚧 planned |
 | Arabic | `ar` | 🚧 planned |
