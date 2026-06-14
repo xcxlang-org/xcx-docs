@@ -2,7 +2,7 @@
 
 > 📌 **Uwaga**: Ta polska dokumentacja została przetłumaczona przez AI i może zawierać nieścisłości lub błędy tłumaczenia. Aby uzyskać najbardziej precyzyjne informacje, zapoznaj się z [wersją angielską dokumentacji](../en/README.md).
 
-Witamy w oficjalnej dokumentacji technicznej XCX 3.0 i kompilatora XCX.
+Witamy w oficjalnej dokumentacji technicznej XCX 3.1 i kompilatora XCX.
 
 ## 📖 Referencja języka
 Kompleksowe przewodniki dotyczące składni i funkcji języka XCX.

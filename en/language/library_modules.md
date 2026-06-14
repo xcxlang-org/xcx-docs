@@ -1,4 +1,4 @@
-# XCX 3.1 Standard Library and Modules
+# XCX 4.0 Standard Library and Modules
 
 ## Built-in Modules
 
@@ -98,6 +98,33 @@ f: precision = random.float(0.0, 1.0 @step 0.25);
 ```xcx
 date: now = date.now();
 ```
+
+### perf
+
+Provides a monotonic, high-resolution timer for performance benchmarking. Unlike `date.now()`, the values returned by `perf` are guaranteed to be monotonic (never go backward) and are not affected by system clock adjustments (NTP/Daylight Saving Time).
+
+| Method      | Signature | Returns | Description                                                        |
+|-------------|-----------|---------|--------------------------------------------------------------------|
+| `perf.ms()` | `() → i`  | `i`     | Elapsed time in milliseconds since the VM started                  |
+| `perf.us()` | `() → i`  | `i`     | Elapsed time in microseconds (10⁻⁶ seconds) since the VM started   |
+| `perf.ns()` | `() → i`  | `i`     | Elapsed time in nanoseconds (10⁻⁹ seconds) since the VM started    |
+
+```xcx
+i: start = perf.ms();
+--- Code to benchmark
+i: elapsed = perf.ms() - start;
+>! "Elapsed: " + s(elapsed) + " ms";
+```
+
+#### Error Handling and Halts
+
+| Scenario | Behavior / Error |
+|---|---|
+| Complete lack of OS monotonic timer support | `halt.fatal` raised on the first method invocation |
+| Calling `perf` methods with arguments (e.g. `perf.ms(10)`) | Compile-time signature mismatch error |
+| Assigning `perf` values directly to `date` variables | Compile-time type mismatch error |
+| Counter overflow (`perf.ns()` after ~292 years) | No `halt.error` (wrap-around to negative value) |
+| Platform lacks native microsecond/nanosecond timer | Auto-fallback to next lower precision, scaled (never fails) |
 
 ---
 

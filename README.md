@@ -1,9 +1,7 @@
 # xcx-docs
-
 Official documentation repository for the [XCX programming language](https://xcxlang.com), available in multiple languages.
 
 ## 📁 Structure
-
 ```
 xcx-docs/
 ├── en/        # English          (complete)
@@ -59,7 +57,7 @@ Each language directory mirrors the same structure:
 
 ## 📖 Contents
 
-Covers XCX 3.1 (current stable).
+> ⚠️ **Non-English translations currently reflect XCX 3.1, not 4.0.** The process of updating them to 4.0 is underway. Until that is complete, please use the English docs (`en/`) for accurate, up-to-date information.
 
 **Language Reference** covers syntax, types, variables, operators, control flow, functions, fibers, collections, JSON, HTTP, I/O, dates, cryptography, error handling, the standard library, and the PAX package manager.
 
@@ -86,6 +84,8 @@ Covers XCX 3.1 (current stable).
 ## ⚠️ Translation Notice
 
 Non-English translations were generated with AI assistance and may contain inaccuracies. The English version (`en/`) is always the canonical reference.
+
+Translations are currently being updated from XCX 3.1 to 4.0. Non-English versions should be treated as outdated until this process is complete.
 
 ## 🤝 Contributing
 

@@ -1,4 +1,4 @@
-# XCX 3.1 Syntax Basics
+# XCX 4.0 Syntax Basics
 
 ## Comments
 

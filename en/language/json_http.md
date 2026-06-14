@@ -1,8 +1,8 @@
-# XCX 3.1 JSON and HTTP
+# XCX 4.0 JSON and HTTP
 
 ## JSON
 
-JSON objects in XCX 3.1 are **mutable**.
+JSON objects in XCX 4.0 are **mutable**.
 
 ### Creation
 

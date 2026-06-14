@@ -50,7 +50,7 @@ Utilisés pour comparer des valeurs du même type.
 | `UNION`                | `∪`     | Union d'ensembles     |
 | `INTERSECTION`         | `∩`     | Intersection          |
 | `DIFFERENCE`           | `\`     | Différence            |
-| `SYMMETRIC_DIFFERENCE` | `⊕`     | Différence symétrique |
+| `SYMMETRIC_DIFFERENCE` | `⊕`     | Différence symétrique |s
 
 ## Précédence des Opérateurs (du plus élevé au plus bas)
 

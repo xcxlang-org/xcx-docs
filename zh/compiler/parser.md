@@ -1,5 +1,4 @@
-//==compiler/parser.md==\\
-# XCX 语法分析器 — v3.0
+# XCX 语法分析器 — v3.1
 
 XCX 语法分析器将 token 流转换为高层抽象语法树（AST）。
 
