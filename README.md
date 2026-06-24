@@ -21,21 +21,19 @@ xcx-docs/
 
 Each language directory mirrors the same structure:
 
-```
+```text
 <lang>/
 ├── README.md
 ├── compiler/
 │   ├── README.md
-│   ├── architecture.md
-│   ├── backend.md
-│   ├── expander.md
-│   ├── jit.md
-│   ├── language.md
-│   ├── lexer.md
-│   ├── parser.md
-│   ├── sema.md
-│   ├── semantics.md
-│   └── vm.md
+│   ├── compiler/
+│   ├── diagnostics/
+│   ├── frontend/
+│   ├── jit/
+│   ├── repl/
+│   ├── runtime/
+│   ├── sema/
+│   └── vm/
 ├── language/
 │   ├── collections.md
 │   ├── control_flow.md
@@ -51,13 +49,14 @@ Each language directory mirrors the same structure:
 │   ├── syntax.md
 │   ├── types.md
 │   └── variables.md
-└── pax/
+└── tooling/
+    ├── doc_manual.md
     └── pax_manual.md
 ```
 
 ## 📖 Contents
 
-> ⚠️ **Non-English translations currently reflect XCX 3.1, not 4.0.** The process of updating them to 4.0 is underway. Until that is complete, please use the English docs (`en/`) for accurate, up-to-date information.
+> ⚠️ **Non-English translations currently reflect older versions, not 4.1.** The process of updating them to 4.1 is underway. Until that is complete, please use the English docs (`en/`) for accurate, up-to-date information.
 
 **Language Reference** covers syntax, types, variables, operators, control flow, functions, fibers, collections, JSON, HTTP, I/O, dates, cryptography, error handling, the standard library, and the PAX package manager.
 
@@ -85,7 +84,7 @@ Each language directory mirrors the same structure:
 
 Non-English translations were generated with AI assistance and may contain inaccuracies. The English version (`en/`) is always the canonical reference.
 
-Translations are currently being updated from XCX 3.1 to 4.0. Non-English versions should be treated as outdated until this process is complete.
+Translations are currently being updated to XCX 4.1. Non-English versions should be treated as outdated until this process is complete.
 
 ## 🤝 Contributing
 
